@@ -16,19 +16,36 @@ body {
     background-color: antiquewhite;
     margin-top: 100px;
     display: inline-block;
+    
 }
 .container > .left-column{
-
+    width: 50%;
+    height: 600px;
+    float:left;
+    color:#fff;
+    background-image: url(../img/main\ image.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
-.left-column > header{
-
+.left-column > .logo{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 10px;
 }
 
-.left-column > footer{
-    
+.left-column > .bottom-text{
+    font-size: 12px;
+    font-weight: lighter;
+    position: absolute;
+    left:10px;
+    bottom:10px;
 }
 
 .container > .right-column{
+    width: 45%;
+    float:right;
 
 }
 
